@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "brand": {
+      "type": "string"
+    },
+    "wishlist": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "mrp": {
+      "type": "decimal",
+      "default": 0,
+      "required": true
+    },
+    "colour": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "Single size",
+        "S",
+        "M",
+        "L"
+      ],
+      "default": "Single size"
+    },
+    "availableQty": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "rating": {
+      "type": "decimal",
+      "default": 0
+    },
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "discount": {
+      "type": "decimal"
+    },
+    "sellPrice": {
+      "type": "decimal"
+    }
+  }
+}
