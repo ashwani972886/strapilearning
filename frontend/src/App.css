@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.custom-legend {
+  background-color: whitesmoke !important;
+  color: black !important;
+  font-weight: bold;
+  max-width: 25% !important;
+  opacity: 1 !important;
 }
+
+/* .img-style {
+  width: 30px;
+  height: 30px;
+} */
